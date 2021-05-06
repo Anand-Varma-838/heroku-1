@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Instavans Clone</title>
+</head>
+<body>
+    <div class="showcase">
+        <header>
+            <a href="clone.html">
+                <div class="logo">
+                    <img src="INSTAVANS-Logo.svg" alt="INSTAVANS" width="165px">
+                </div>
+            </a>
+            <div class="toggle"></div>
+        </header>
+        <video src="sun.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <img class="pic" style="margin-left: -600px" src="landingpage.svg" alt="lp" width="600">
+        <div class="text">
+            <h2>TMS WITH A MARKET PLACE <br>ATTACHED</h2>
+            <p>Helping Shippers and 4PLs reinvent their supply chain through automation, visibility, and improving operational efficiencies. </p>
+            <a class="km" href="#">KNOW MORE</a>
+        </div>
+        <div class="menu">
+            <a href="#">Benefits</a>
+            <a href="#">Features</a>
+            <a href="#">FAQ</a>
+            <a href="#">About Us</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Request a Call Back</a>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+            const menu = document.querySelector('.menu');
+
+            menuToggle.addEventListener('click', function(){
+                menu.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })
+        </script>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="Benefits"> 
+        <div class="container" id="Benefits">
+            <br>
+            <h2 style="text-decoration: underline; text-decoration-color:#03a9f4;">
+                Benefits
+            </h2>
+            <br>
+            <br>
+            <p>Shipper/4PL</p>
+            <br>
+            <br>
+            <div class="four">
+                <a href="#">
+                    <img src="14.svg" alt="" height="100px" width="100px">
+                    <div class="desc" style="text-decoration: none;">Workflow Automation</div>
+                </a>
+                
+                <a href="#">
+                    <img src="asset1.svg" alt="" height="100px" width="100px">
+                    <div class="desc" style="text-decoration: none;">Asset Utilization</div>
+                </a>
+                
+                <a href="#">
+                    <img src="16.svg" alt="" height="100px" width="100px">
+                    <div class="desc" style="text-decoration: none;">Monitor SLA's/KPIs</div>
+                </a>
+                
+                <a href="#">
+                    <img src="17.svg" alt="" height="100px" width="100px">
+                    <div class="desc" style="text-decoration: none;">ROI</div>
+                </a>
+            </div>
+            <!-- <div class="fb" style="width:100%;height:fit-content;border:6px; outline-style: outset orange;background-color: teal; ">
+                <br>
+                <br>
+                <br>
+                <img src="work.PNG" alt="" align="left">
+            </div> -->
+        </div> 
+    </section>
+            
+</body>
+</html>
